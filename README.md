@@ -9,6 +9,6 @@ J2ObjC gradle plugin: https://github.com/j2objc-contrib/j2objc-gradle (https://p
 J2ObjC homepage: http://j2objc.org/
 
 ####Command-line
-__Clean project:__ “gradle shared:clean --stacktrace”
-__Build project:__  “gradle shared:build shared:j2objcXcode”
-__Complete build:__  “gradlew shared:build shared:j2objcXcode”
+__Clean project:__ “gradle shared:clean --stacktrace” 
+__Build project:__  “gradle shared:build shared:j2objcXcode” 
+__Complete build:__  “gradlew shared:build shared:j2objcXcode” 
