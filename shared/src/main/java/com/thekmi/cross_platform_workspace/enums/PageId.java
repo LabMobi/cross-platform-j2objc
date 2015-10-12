@@ -1,0 +1,5 @@
+package com.thekmi.cross_platform_workspace.enums;
+
+public enum PageId {
+    SPLASH,
+}
