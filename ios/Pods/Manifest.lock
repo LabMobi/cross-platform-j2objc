@@ -3,17 +3,17 @@ PODS:
   - j2objc-shared-release (1.0)
 
 DEPENDENCIES:
-  - j2objc-shared-debug (from `/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build`)
-  - j2objc-shared-release (from `/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build`)
+  - j2objc-shared-debug (from `/KMI/dev/cross-platform/cross-platform-j2objc/shared/build`)
+  - j2objc-shared-release (from `/KMI/dev/cross-platform/cross-platform-j2objc/shared/build`)
 
 EXTERNAL SOURCES:
   j2objc-shared-debug:
-    :path: /KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build
+    :path: /KMI/dev/cross-platform/cross-platform-j2objc/shared/build
   j2objc-shared-release:
-    :path: /KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build
+    :path: /KMI/dev/cross-platform/cross-platform-j2objc/shared/build
 
 SPEC CHECKSUMS:
-  j2objc-shared-debug: b7af2f2addd78be7439cf92b7a32099949d9ea92
-  j2objc-shared-release: 10f59a818f0a22e137d236ec00f66e8efe0ccebe
+  j2objc-shared-debug: 68a93ed5cc3405678cab2ae1dec35891b97978ea
+  j2objc-shared-release: 9e638e1933f5cc64f320ae3658c055e5c9d85e35
 
 COCOAPODS: 0.38.2

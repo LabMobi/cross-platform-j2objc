@@ -17,7 +17,7 @@
     "shared-j2objc"
   ],
   "xcconfig": {
-    "HEADER_SEARCH_PATHS": "/KMI/dev/j2objc-0.9.8.1/include",
-    "LIBRARY_SEARCH_PATHS": "/KMI/dev/j2objc-0.9.8.1/lib /KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build/j2objcOutputs/lib/iosDebug"
+    "HEADER_SEARCH_PATHS": "/KMI/dev/cross-platform/j2objc/j2objc-0.9.8.1/include",
+    "LIBRARY_SEARCH_PATHS": "/KMI/dev/cross-platform/j2objc/j2objc-0.9.8.1/lib /KMI/dev/cross-platform/cross-platform-j2objc/shared/build/j2objcOutputs/lib/iosDebug"
   }
 }

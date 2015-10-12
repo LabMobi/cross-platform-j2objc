@@ -52,6 +52,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF8FF23927C6B351CADA4B200ADDF99 /* j2objc-shared-release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "j2objc-shared-release";
+			path = "/KMI/dev/cross-platform/cross-platform-j2objc/shared/build";
+			sourceTree = "<absolute>";
+		};
+		36D583988E67DABDFB25869546CD1C42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF9100694B048E4F4607B13728DD6A8 /* j2objc-shared-debug */,
+				0CF8FF23927C6B351CADA4B200ADDF99 /* j2objc-shared-release */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +76,14 @@
 			);
 			name = iOS;
 			sourceTree = "<group>";
+		};
+		5CF9100694B048E4F4607B13728DD6A8 /* j2objc-shared-debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "j2objc-shared-debug";
+			path = "/KMI/dev/cross-platform/cross-platform-j2objc/shared/build";
+			sourceTree = "<absolute>";
 		};
 		64B21AAC12A87F53951DE49655AB4A5A /* Pods-iosTests */ = {
 			isa = PBXGroup;
@@ -78,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				B545B2EC3C25150D42738DF655720AFF /* Development Pods */,
+				36D583988E67DABDFB25869546CD1C42 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				7DC92AC44846432FDF27A9C2F7D632A1 /* Targets Support Files */,
@@ -108,23 +133,6 @@
 			path = "Target Support Files/Pods-ios";
 			sourceTree = "<group>";
 		};
-		ADF9D4AD7406521BE550FA862BC0566D /* j2objc-shared-release */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "j2objc-shared-release";
-			path = "/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build";
-			sourceTree = "<absolute>";
-		};
-		B545B2EC3C25150D42738DF655720AFF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C96AAD359DD379EA81D4D56A2F9BA463 /* j2objc-shared-debug */,
-				ADF9D4AD7406521BE550FA862BC0566D /* j2objc-shared-release */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +140,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		C96AAD359DD379EA81D4D56A2F9BA463 /* j2objc-shared-debug */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "j2objc-shared-debug";
-			path = "/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build";
-			sourceTree = "<absolute>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;

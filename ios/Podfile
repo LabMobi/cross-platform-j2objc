@@ -3,12 +3,12 @@
 
 target 'ios' do
 
-pod 'j2objc-shared-debug', :configuration => ['Debug'], :path => '/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build'
-pod 'j2objc-shared-release', :configuration => ['Release'], :path => '/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build'
+pod 'j2objc-shared-debug', :configuration => ['Debug'], :path => '/KMI/dev/cross-platform/cross-platform-j2objc/shared/build'
+pod 'j2objc-shared-release', :configuration => ['Release'], :path => '/KMI/dev/cross-platform/cross-platform-j2objc/shared/build'
 end
 
 target 'iosTests' do
 
-pod 'j2objc-shared-debug', :configuration => ['Debug'], :path => '/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build'
-pod 'j2objc-shared-release', :configuration => ['Release'], :path => '/KMI/dev/cross-platform/sample-cross-platform-workspace/shared/build'
+pod 'j2objc-shared-debug', :configuration => ['Debug'], :path => '/KMI/dev/cross-platform/cross-platform-j2objc/shared/build'
+pod 'j2objc-shared-release', :configuration => ['Release'], :path => '/KMI/dev/cross-platform/cross-platform-j2objc/shared/build'
 end

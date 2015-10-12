@@ -1,1 +1,1 @@
-include ':android', ':shared', ':library-gson'
+include ':android', ':shared'
