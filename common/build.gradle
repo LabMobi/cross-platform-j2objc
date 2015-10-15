@@ -17,7 +17,7 @@ j2objcConfig {
 
     xcodeProjectDir '../ios'
     xcodeTarget 'IOS-APP'
-    translateArgs '--no-package-directories'
+    translateArgs '--no-package-directories', '--prefixes', 'prefixes.properties'
 
     autoConfigureDeps true
 

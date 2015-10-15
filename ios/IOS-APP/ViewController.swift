@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        let lib = MobiLabJ2objcCoreLib.getInstance()
+        let lib = LIBCoreLib.getInstance()
 
         NSLog("message of the day: \(lib.getMessageOfTheDay())")
         assert ("MessageOfTheDay" == lib.getMessageOfTheDay())
