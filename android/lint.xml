@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+	<!-- Change the severity of MissingTranslation strings to "warning". We have a lot of them during dev -->
+    <issue id="MissingTranslation" severity="warning" />
+    <!-- Change the severity of hardcoded strings to "error" -->
+    <issue id="HardcodedText" severity="error" />
+</lint>

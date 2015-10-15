@@ -1,0 +1,19 @@
+PODS:
+  - j2objc-common-debug (1.0)
+  - j2objc-common-release (1.0)
+
+DEPENDENCIES:
+  - j2objc-common-debug (from `/Users/lauris/dev/ideaspace/j2objc-multi/common/build`)
+  - j2objc-common-release (from `/Users/lauris/dev/ideaspace/j2objc-multi/common/build`)
+
+EXTERNAL SOURCES:
+  j2objc-common-debug:
+    :path: /Users/lauris/dev/ideaspace/j2objc-multi/common/build
+  j2objc-common-release:
+    :path: /Users/lauris/dev/ideaspace/j2objc-multi/common/build
+
+SPEC CHECKSUMS:
+  j2objc-common-debug: 5c42098c7d7f0e55977bb5d46ba9bd99c023fcb1
+  j2objc-common-release: 5d94c8b66c2317338dc1722252559f76968a80f6
+
+COCOAPODS: 0.39.0

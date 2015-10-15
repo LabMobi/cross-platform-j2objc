@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'com.github.j2objccontrib.j2objcgradle' version '0.4.3-alpha'
+}
+
+
+apply plugin: 'java'
+apply plugin: 'com.github.j2objccontrib.j2objcgradle'
+
+dependencies {
+    compile 'com.google.guava:guava:17.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    testCompile 'junit:junit:4.12'
+}
+
+j2objcConfig {
+
+    xcodeProjectDir '../ios'
+    xcodeTarget 'IOS-APP'
+    translateArgs '--no-package-directories'
+
+    autoConfigureDeps true
+
+    finalConfigure()
+}

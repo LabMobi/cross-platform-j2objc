@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
+
+apply plugin: 'com.android.application'
+// This does not break the build when Android Studio is missing the JRebel for Android plugin.
+
+android {
+	compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "mobi.lab.j2objc"
+		minSdkVersion 14
+        targetSdkVersion 23
+    }
+	buildTypes {
+        release {
+			// Proguard is enabled by default
+			// (Think about the logging lib before turning this off)
+            minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+	}
+	lintOptions {
+        checkReleaseBuilds true
+        abortOnError true
+    }
+}
+
+dependencies {
+    compile project(':common')
+}
