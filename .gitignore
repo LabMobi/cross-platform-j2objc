@@ -34,5 +34,6 @@ proguard/
 
 **/*Pods
 **/*.iml
+**/*.DS_Store
 **/*.swp
 *xcuserdata

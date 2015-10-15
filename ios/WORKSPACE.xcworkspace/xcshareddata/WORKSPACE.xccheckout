@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AB869BD-9473-4F26-91EA-A15356E6DC88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WORKSPACE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7259821678F01D983827436AAEAAE98BA205FF7</key>
+		<string>github.com:MobiSolutions/cross-platform-j2objc</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/WORKSPACE.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7259821678F01D983827436AAEAAE98BA205FF7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:MobiSolutions/cross-platform-j2objc</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7259821678F01D983827436AAEAAE98BA205FF7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7259821678F01D983827436AAEAAE98BA205FF7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cross-platform-j2objc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
