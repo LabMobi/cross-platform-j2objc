@@ -3,6 +3,8 @@ plugins {
     id 'com.github.j2objccontrib.j2objcgradle' version '0.4.3-alpha'
 }
 
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
 
 apply plugin: 'java'
 apply plugin: 'com.github.j2objccontrib.j2objcgradle'
