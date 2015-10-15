@@ -31,3 +31,8 @@ proguard/
 
 *.iml
 .idea/
+
+**/*Pods
+**/*.iml
+**/*.swp
+*xcuserdata
