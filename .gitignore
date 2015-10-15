@@ -33,7 +33,6 @@ proguard/
 .idea/
 
 **/*Pods
-**/*Podfile*
 **/*.iml
 **/*.DS_Store
 **/*.swp

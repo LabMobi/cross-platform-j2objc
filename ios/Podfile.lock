@@ -1,0 +1,19 @@
+PODS:
+  - j2objc-common-debug (1.0)
+  - j2objc-common-release (1.0)
+
+DEPENDENCIES:
+  - j2objc-common-debug (from `../common/build`)
+  - j2objc-common-release (from `../common/build`)
+
+EXTERNAL SOURCES:
+  j2objc-common-debug:
+    :path: ../common/build
+  j2objc-common-release:
+    :path: ../common/build
+
+SPEC CHECKSUMS:
+  j2objc-common-debug: 6ae802ac06fb106d4141489c3211477d6717b59d
+  j2objc-common-release: eddc3359b40ec769bbd15215afb241f67b6445ef
+
+COCOAPODS: 0.39.0
